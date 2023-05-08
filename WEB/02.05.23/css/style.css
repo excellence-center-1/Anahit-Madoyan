@@ -1,0 +1,45 @@
+nav {
+    color: #0d6efd;
+    font-weight: 500;
+    padding: 7px 7px 0px 7px;
+}
+.forgot_account{
+    padding-top: 6px;
+}
+
+.img2_div{
+    top: 83%;
+    margin-left: 11px;
+  
+}
+.teacher{
+    margin-left: 150px;
+    top: 104%;
+}
+.teacher span{
+    display: block;
+    padding-right: 91px;
+}
+
+.section{
+    border-top: 1px solid silver;
+    margin-left: 143px;
+    margin-top: 117px;
+    width: 1150px!important;
+    font-weight: 500;
+
+}
+.point{
+    width: 53px;
+    background-color: #c0c0c099;
+    text-align: center;
+    color: black;
+    border-radius: 4px;
+    height: 34px;
+    margin-left: 94%;
+    margin-top: -28px;
+
+}
+
+
+
