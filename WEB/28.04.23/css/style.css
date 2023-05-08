@@ -1,0 +1,144 @@
+body{
+    background-color: #f0f2f5;
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.globalContainer{
+    background-color: white;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    width: 37%;
+    padding: 0 16px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+}
+h2{
+    color: #1c1e21;
+    font-size: 35px;
+    line-height: 32px;
+}
+h3{
+    color: #606785;
+    font-weight: normal;
+    padding: inherit;
+}
+h1{
+    color: #106dff;
+    font-size: 82px;
+    padding: 47px;
+}
+
+.header{
+    padding: 16px;
+    border-bottom: 1px solid #dadde1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.fn_ln, .gender_box, .custom {
+    display: flex;
+    justify-content: space-between;
+}
+.fn_ln input[type="text_last"]{
+    margin-left: 5px;
+}
+input{
+    padding: 21px;
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+}
+input[type="radio"]{
+    margin-top: 0;
+}
+.gender{
+    margin: 0;
+    color: #606770;
+    padding: 10px 0;
+}
+select, .gender_box div{
+    color: #1c1e21;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 23px;
+    padding: 8px;
+    border: 1px solid #ccd0d5; 
+}
+select{
+    width: 210px;
+    height: 60px;
+}
+
+.birthday_gender, .gender_box{
+    display: flex;
+    justify-content: space-between;
+}
+.gender_box div{
+    width: 195px;
+    height: 43px;
+    display: flex;
+}
+.gender_box div label{
+    display: block;
+    margin-top: 8px;
+}
+.gender_box div input{
+    display: block;
+}
+
+.gender_box{
+    display: flex;
+}
+footer{
+    color: #777;
+    font-size: 15px;
+}
+footer a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+.butt{
+    text-align: center;
+}
+.butt button{
+    background-color: #00a400;
+    border-radius: 6px;
+    font-size: 24px;
+    color: #fff;
+    padding: 9px 90px;
+    font-weight: 600;
+    border: #00a400;
+}
+.have_account{
+    padding: 35px 0;
+    text-align: center;
+    font-size: 24px;
+}
+.have_account a{
+    color: #1877f2;
+}
+
+@media only screen and (max-width: 1799px) {
+        .fn_ln{
+        flex-direction: column;
+    }
+}
+
+/*
+@media only screen and (max-width: 1280px) {
+    .globalContainer {
+      width: 68%;
+    }
+ 
+}
+*/
