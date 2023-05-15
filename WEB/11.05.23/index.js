@@ -27,7 +27,7 @@ let books = [{
 
 // EX2 //
 
-for (i=0; i<books.length; i++){
+for (let i=0; i<books.length; i++){
     console.log(books[i].title);
 };
 
@@ -35,7 +35,7 @@ for (i=0; i<books.length; i++){
 // EX3 //
 
 // let sum = 0;
-// for (i=0; i<books.length; i++){
+// for (let i=0; i<books.length; i++){
 //     sum += books[i].pages;
 // }
 // console.log("Total number of pages: " + sum);
@@ -44,7 +44,7 @@ for (i=0; i<books.length; i++){
 
 // let max_pages = 0;
 // let title_page = null;
-// for (i = 0; i < books.length; i++){
+// for (let i = 0; i < books.length; i++){
 //   if (books[i].pages > max_pages){
 //     title_page = books[i].title;
 //     max_pages = books[i].pages;
@@ -55,7 +55,7 @@ for (i=0; i<books.length; i++){
 // EX5 //
 
 // let shortest_title = null;
-// for (i = 0; i < books.length; i++){
+// for (let i = 0; i < books.length; i++){
 //   if (shortest_title === null || books[i].title.length < shortest_title.length){
 //       shortest_title = books[i].title;
 //   }
@@ -65,7 +65,7 @@ for (i=0; i<books.length; i++){
 // EX6//
 
 // let books_author = [];
-// for (i=0; i<books.length; i++){
+// for (let i=0; i<books.length; i++){
 //     books_author.push(books[i].author);
 // };
 // console.log(books_author);
